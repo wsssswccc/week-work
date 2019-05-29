@@ -1,0 +1,69 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    display: flex;
+    margin: 1%;
+    width: 35%;
+    justify-content: space-around;
+    align-items: center;
+    float: right;
+}
+ol{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    justify-content: space-around;
+}
+.moreProduct{
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    background-color: #3388FF;
+    color: aliceblue;
+}
+section{
+    width: 100%;
+    height: 250px;;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.baidu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.input{
+    width: 40%;
+    font-size: 20px;
+}
+.search{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #3388FF;
+    color: aliceblue; 
+}
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    align-items: center;
+    justify-content: flex-end;
+}
+.text2{
+    flex-direction: row;
+    justify-content: center;
+}
+u:hover,.moreProduct,.search{
+    cursor: pointer;
+}

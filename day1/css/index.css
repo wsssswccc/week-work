@@ -1,0 +1,91 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+/* body{
+    background: url('../images/bgimg.jpg') 500%;
+} */
+.header{
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #1189EB;
+}
+.nav{
+    /* margin-top: 10px; */
+    /* margin-bottom: 10px; */
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 50px;
+    display: flex;
+    font-weight: bolder;
+    justify-content: space-between;
+}
+.guide{
+    line-height: 50px;
+    width: 100px;
+    text-align: center; 
+}
+#index{
+    background-color: #1189EB;
+}
+.input{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.search{
+    background-color: rgb(17, 166, 235);
+    width: 80px;
+    margin: 5px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 8px;
+}
+.guide:hover,.search:hover,.add:hover{
+    cursor: pointer;
+    background-color: #1189EB;
+}
+.aside{
+    margin-left: 10%;
+    margin-top: 50px;
+    float: left;
+    width: 300px;
+    height: 600px;
+}
+.add{
+    width: 80px;
+    height: 35px;
+    margin-left: 110px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: #11A6EB;
+    text-align: center;
+    line-height: 35px;
+}
+.user{
+    border-radius: 5px;
+    /* border: #1189EB solid 2px; */
+    background-color: rgb(156, 177, 216);
+}
+#user{
+    width: 100px;
+    margin-left: 100px;
+}
+.main{
+    margin-top: 50px;
+    margin-left: 35%;
+    margin-right: 10%;
+}
+.text{
+    margin: 20px;
+    border-radius: 5px;
+    height: 300px;
+    font-size: 20px;
+    line-height: 40px;
+    background-color: rgb(156, 177, 216);
+}
+ul{
+    margin-left: 30px;
+}
