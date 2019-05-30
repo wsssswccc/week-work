@@ -34,10 +34,6 @@ for(let i in object){
 }
 window.console.log(arr1);
 
-let array = [];
-Object.forEach((item,index)=>{array[index] = item});
-window.console.log(array);
-
 // 6.map-必须与Object.keys()连用(不建议)-不会改变原对象
 let arr6 = Object.keys(object).map(function(i){return object[i]});
 window.console.log(arr6);
