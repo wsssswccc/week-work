@@ -1,0 +1,58 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    border: 5px solid lightskyblue;
+    margin-left: 25%;
+    margin-top: 10%;
+    display: flex;
+    width: 50%; 
+    justify-content: space-around;
+    overflow: hidden;
+}
+.container>div{
+    background-color: lightpink;
+    height: 220px;
+    width: 46%;
+    float: left;
+}
+.box1{
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box2{
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+}
+input{
+    font-size: 20px;
+    width: 150px;
+    height: 120%;
+}
+.commit{
+    background-color: rgb(96, 145, 209);
+    text-align: center;
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    color: white;
+    border-radius: 5px;
+}
+.getInfor{
+    background-color: rgb(96, 145, 209);
+    text-align: center;
+    width: 60%;
+    height: 35px;
+    line-height: 35px;
+    color: white;
+    border-radius: 5px;
+    margin: 20%;
+}
+.commit:hover,.getInfor:hover{
+    background-color: rgb(52, 124, 233);
+    cursor: pointer;
+}
