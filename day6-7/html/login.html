@@ -8,6 +8,35 @@
     <link rel="stylesheet" href="../css/login.css">
 </head>
 <body>
+    <section>
+        <div class="container1">
+            <nav>
+                <div class="guide">登录</div>
+                <div class="guide">注册</div>                
+            </nav>
+            <div class="main">
+                <br><img src="../images/user.jpg">
+                <p>用户：<input class="data1" type="text"></p>
+                <p>密码：<input class="data1" type="password"></p>
+                <p class="text"></p>
+                <div class="login">立即登录</div><br><br>
+            </div>
+            <div class="main">
+                <br>
+                <p>用户：<input class="data2" type="text" onblur="checkName()"></p>
+                <p class="warnings"></p>
+                <p>电话：<input class="data2" type="text" onblur="checkTel()"></p>
+                <p class="warnings"></p>
+                <p>邮箱：<input class="data2" type="text" onblur="checkEmail()"></p>
+                <p class="warnings"></p>
+                <p>密码：<input class="data2" type="password" onblur="checkPwd()"></p>
+                <p class="warnings"></p>
+                <p>确认密码：<input class="data2" type="password" onblur="checkRepwd()">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                <p class="warnings"></p>
+                <br><div class="register">立即注册</div><br><br>
+            </div>
+        </div>
+    </section>  
     <script src="../js/login.js"></script>
 </body>
 </html>
